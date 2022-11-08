@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <title>The Cult of The Keys Official Website</title>
+        <style>
+            body {
+                background-color: rgb(255, 241, 223);
+                margin: 0px;
+            }
+            p {
+                font-family: 'Lato', sans-serif;
+                font-size: 125%;
+            }
+            h1 {
+                font-family: 'Rubik', sans-serif;
+            }
+            .topnav {
+                background-color: #333;
+                font-family: 'Lato', sans-serif;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                transition: all 0.25s ease;
+            }
+            .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+            .topnav a.active {
+                background-color: rgb(250, 228, 255);
+                color: black;
+            }
+            #logo {
+                width: 15%;
+                height: 15%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                opacity: 100%;
+                transition: all 0.1s linear;
+            }
+            #logo:hover {
+                opacity: 75%;
+            }
+            #banner_img {
+                display: block;
+                object-fit: cover;
+                transform: scale(175%) translate(0%, -5%); 
+                opacity: 50%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+           #banner_text {
+                font-size: 50px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: 'Rubik', sans-serif;
+           }
+           #banner {
+                width: 100%;
+                height: 300px;
+                position: relative;
+                overflow: hidden;
+                text-align: center;
+                background-color: rgb(250, 228, 255);
+            }
+            .paragraph {
+                margin: auto;
+                width: 65%;
+            }
+            #pageBottom {
+                background-color: rgb(53, 53, 53);
+                height: 200px;
+                color: white;
+                display:flex;
+				align-items: center;
+                font-size: 75%;
+            }
+            #pageBottom p {
+                margin-left: 20%;
+                margin-right: 20%;
+                text-align: center;
+            }
+            ul {
+                font-family: 'Lato', sans-serif;
+                font-size: 125%;
+            }
+            ul li ul li{
+                font-family: 'Lato', sans-serif;
+                font-size: 75%;
+            }
+            a {
+                text-decoration: none;
+                color:black;
+                transition: all 0.1s ease;
+            }
+            a:hover {
+                color:rgb(0, 225, 255);
+            }
+        </style>
+    </head>
+    <body>
+        <a href="../index.html"><img src="../logo.png" id="logo"></a><br>
+        <div class="topnav">
+            <a href="../index.html">Home</a>
+            <a href="../keycaps/keycaps.html">Keycaps</a>
+            <a class="active" href="../switches/switches.html">Switches</a>
+            <a href="../board/board.html">Board</a>
+            <a href="../about me/about me.html">About Me</a>
+        </div>
+        <div id="banner">
+            <img src="../switches.webp" id="banner_img">
+            <div id="banner_text">SWITCHES</div>
+        </div>
+        <div class="paragraph">
+			<p>So, you want to pick the keyboard switch that's right for you? Here's some things that you're gonna wanna know about keyboard switches.</p>
+            <div>
+                <h1>TABLE OF CONTENTS</h1>
+                <ul>
+                    <li><a href="#KST">Key Switch Types</a>
+                        <ul>
+                            <li><a href="#L">Linear</a></li>
+                            <li><a href="#T">Tactile</a></li>
+                            <li><a href="#C">Clicky</a></li>
+                        </ul></li>
+                    <li><a href="#FS">Frankenstein Switches</a></li>
+                </ul>
+            </div>
+            <h1 id="KST">KEY SWITCH TYPES</h1>
+            <p>Primarily, there are three main keyswitch types:
+                <ul>
+                    <li id="L"><b>LINEAR:</b> Smooth and consistent keystroke with quiet noise. A popular choice for gamers and ofice workers.<br><img src="keychroncherrymechanicalstandardredswitchgif2-1648889740616.gif"></li>
+                    <li id="T"><b>TACTILE:</b> Has a tactile feel due to a small bump in the switch. A less popular choice for gamers, it creates moderate noise and may be popular with people who are used to typing on laptops because they're used to the tactile feel of laptop keyboards.<br><img src="keychroncherrymechanicalstandardbrownswitchgif-1648889982796.webp"></li>
+                    <li id="C"><b>CLICKY:</b> Clicky switches have a similar tactile feel to the tactiles but they also have a loud and distict click whenever a keystroke is registed. Popular with gamers and people new to mechanical keyboards, this keyboard is perfect for those who want to annoy the people they work with by creating an incredibly loud and annoying sound.<br><img src="keychroncherrymechanicalstandardblueswitchgif-1648890226211.webp"></li>
+                </ul>
+                <p>Some of the popular switch manufacturers are Cherry, Gateron, and Kailh. Some even have their specialty offers and lines. You may need to do a bit of research to find out which will fit your needs the best.</p>
+            </p>
+            <h1 id="FS">FRANKENSTEIN SWITCHES</h1>
+                <p>Frankenstein switches are creations of the mechanical keyboard community. They are created by mixing and matching the springs, stems, and housings of many different key switch brands to create a switch that has all the best (or worst) characteristics of many different switches. For example, some springs in some linear switches require more pressure to be put on the switch before they are pressed, creating a heavier feel. Some may like that heavier feel and wish it were on a tactile or a clicky switch.</p>
+		</div>
+        <div id="pageBottom"><p>The Cult of The Keys website is made for keyboard enthusiasts everywhere. It's goal is to have an easy source of information for people interested in mechanical keyboards to find what they need to know. <br><br> Image/s taken from: https://www.zdnet.com/article/mechanical-keyboards-guide/ and https://www.keychron.com/blogs/news/how-to-choose-a-custom-mechanical-keyboard. Information came from: https://www.keychron.com/blogs/news/how-to-choose-a-custom-mechanical-keyboard</p></div>
+    </body>
+</html>

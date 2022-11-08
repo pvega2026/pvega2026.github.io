@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <title>The Cult of The Keys Official Website</title>
+        <style>
+            body {
+                background-color: rgb(255, 241, 223);
+                margin: 0px;
+            }
+            p {
+                font-family: 'Lato', sans-serif;
+                font-size: 125%;
+            }
+            h1 {
+                font-family: 'Rubik', sans-serif;
+            }
+            .topnav {
+                background-color: #333;
+                font-family: 'Lato', sans-serif;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                transition: all 0.25s ease;
+            }
+            .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+            .topnav a.active {
+                background-color: #1f1f1f;
+                color: white;
+            }
+            #logo {
+                width: 15%;
+                height: 15%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                opacity: 100%;
+                transition: all 0.1s linear;
+            }
+            #logo:hover {
+                opacity: 75%;
+            }
+            #banner_img {
+                width: 100%;
+                height: 300px;
+                display: block;
+                object-fit: cover;
+                opacity: 20%;
+            }
+           #banner_text {
+                font-size: 50px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: 'Rubik', sans-serif;
+           }
+           #banner {
+                position: relative;
+                text-align: center;
+            }
+            .paragraph {
+                margin: auto;
+                width: 65%;
+            }
+            .pageLinks {
+                width: 75%;
+                height: 100px;
+                margin: auto;
+                margin-bottom: 10px;
+                text-decoration: none;
+                color: black;
+                transition: all 0.5s ease;
+				display:flex;
+				align-items: center;
+				justify-content: center;
+                overflow: hidden;
+                border-radius: 15px / 15px;
+            }
+            .pageLinks:hover {
+                width: 87%;
+                height: 150px;
+                margin: auto;
+                color: white;
+                margin-bottom: 10px;
+            }
+            .pageLinks h1 {
+                position: absolute;
+            }
+            #pageLink1 {
+                background-color: azure;
+            }
+            #pageLink1 img {
+                flex-shrink:inherit;
+                transform:translateY(15%);
+                min-width: 100%;
+                min-height: 100%;
+                opacity: 50%;
+            }
+            #pageLink2 {
+                background-color: rgb(245, 198, 255);
+            }
+            #pageLink2 img {
+                flex-shrink:inherit;
+                transform:translateY(15%);
+                min-width: 100%;
+                min-height: 100%;
+                opacity: 50%;
+            }
+            #pageLink3 {
+                background-color: rgb(75, 74, 75);
+            }
+            #pageLink3 img {
+                flex-shrink:inherit;
+                transform:translateY(15%);
+                min-width: 100%;
+                min-height: 100%;
+                opacity: 50%;
+            }
+            #pageLink4 {
+                background-color: rgb(131, 131, 131);
+            }
+            #pageLink4 img {
+                flex-shrink:inherit;
+                transform:translateY(15%);
+                min-width: 100%;
+                min-height: 100%;
+                opacity: 50%;
+            }
+            #pageBottom {
+                background-color: rgb(53, 53, 53);
+                height: 200px;
+                color: white;
+                display:flex;
+				align-items: center;
+                font-size: 75%;
+            }
+            #pageBottom p {
+                margin-left: 20%;
+                margin-right: 20%;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="index.html"><img src="logo.png" id="logo"></a><br>
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="keycaps/keycaps.html">Keycaps</a>
+            <a href="switches/switches.html">Switches</a>
+            <a href="board/board.html">Board</a>
+            <a href="about me/about me.html">About Me</a>
+        </div>
+        <div id="banner">
+            <img src="banner.webp" id="banner_img">
+            <div id="banner_text">MECHANICAL KEYBOARDS</div>
+        </div>
+        <div class="paragraph">
+            <p>Welcome, if you have found this website then you too have found your way down the rabbit hole that is mechanical keyboards and the ways to customize them in a manner of your choosing. We here at Cult of The Keys believe that information about keyboard buildling, as all information should be, should be free and easy to navigate.</p>
+            <p>So, if you are ready to go even deeper down the rabbit hole, use the navigation bar above or click on one of these boxes to learn more about mechanical keyboards:</p>
+        </div>
+        <a href="keycaps/keycaps.html"><div class="pageLinks" id="pageLink1"><img src="keycaps.webp"><h1>KEYCAPS</h1></div></a>
+        <a href="switches/switches.html"><div class="pageLinks" id="pageLink2"><img src="switches.webp"><h1>SWITCHES</h1></div></a>
+        <a href="board/board.html"><div class="pageLinks" id="pageLink3"><img src="board.webp"><h1>BOARD</h1></div></a>
+        <a href="about me/about me.html"><div class="pageLinks" id="pageLink4"><h1>ABOUT ME</h1></div></a>
+        <div id="pageBottom"><p>The Cult of The Keys website is made for keyboard enthusiasts everywhere. It's goal is to have an easy source of information for people interested in mechanical keyboards to find what they need to know.</p></div>
+    </body>
+</html>

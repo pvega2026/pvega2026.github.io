@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <title>The Cult of The Keys Official Website</title>
+        <style>
+            body {
+                background-color: rgb(255, 241, 223);
+                margin: 0px;
+            }
+            p {
+                font-family: 'Lato', sans-serif;
+                font-size: 125%;
+            }
+            h1 {
+                font-family: 'Rubik', sans-serif;
+            }
+            .topnav {
+                background-color: #333;
+                font-family: 'Lato', sans-serif;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                transition: all 0.25s ease;
+            }
+            .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+            .topnav a.active {
+                background-color: #1f1f1f;
+                color: white;
+            }
+            #logo {
+                width: 15%;
+                height: 15%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                opacity: 100%;
+                transition: all 0.1s linear;
+            }
+            #logo:hover {
+                opacity: 75%;
+            }
+            #banner_img {
+                width: 100%;
+                height: 300px;
+                display: block;
+                object-fit: cover;
+                margin-left: auto;
+                margin-right: auto;
+                opacity: 20%;
+            }
+            #banner_text {
+                font-size: 50px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: 'Rubik', sans-serif;
+            }
+            #banner {
+                position: relative;
+                text-align: center;
+            }
+            .paragraph {
+                margin: auto;
+                width: 65%;
+            }
+            #pageBottom {
+                background-color: rgb(53, 53, 53);
+                height: 200px;
+                color: white;
+                display:flex;
+				align-items: center;
+                font-size: 75%;
+            }
+            #pageBottom p {
+                margin-left: 20%;
+                margin-right: 20%;
+                text-align: center;
+            }
+            #aboutMeIMG{
+                background-color: #1f1f1f;
+                width: 25%;
+                height: 25%;
+                margin: 5%;
+                padding: 5%;
+                border-radius: 5%/5%;
+            }
+            #aboutMe {
+                display: flex;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="../index.html"><img src="../logo.png" id="logo"></a><br>
+        <div class="topnav">
+            <a href="../index.html">Home</a>
+            <a href="../keycaps/keycaps.html">Keycaps</a>
+            <a href="../switches/switches.html">Switches</a>
+            <a href="../board/board.html">Board</a>
+            <a class="active" href="../about me/about me.html">About Me</a>
+        </div>
+        <div id="banner">
+            <img src="../banner.webp" id="banner_img">
+            <div id="banner_text">ABOUT ME</div>
+        </div>
+        <div class="paragraph" id="aboutMe">
+            <img src="Ice.JPG" id="aboutMeIMG">
+            <div class="paragraph">
+                <p>Hello, I am Paul Isaac Vega and I made this website. I am from 9-Balingkilat and I am a mechanical keyboard enthusiast.</p>
+                <p> It all started when I got into PC gaming and I learned that all my favourite players in the games I played used mechanical keyboards. So, I was inspired to get my own mechanical keyboard. At this point I didn't know anything about things like keyswitch types, keycap profiles, or keyboard layouts so I didn't know which mechanical keyboard to buy. But, I just went with my gut and bought a Ducky One Two mini (a 60% keyboard) with cherry mx red switches (a linear switch). This keyboard served me well, however, I had noticed that even though what I had was a mechanical keyboard, it wasn't the same the mechanical keyboards I would see in the videos I watched. This was when I went down the rabbit hole that is custom mechanical keyboards.</p>
+            </div>
+		</div>
+        <div id="pageBottom"><p>The Cult of The Keys website is made for keyboard enthusiasts everywhere. It's goal is to have an easy source of information for people interested in mechanical keyboards to find what they need to know.</p></div>
+    </body>
+</html>

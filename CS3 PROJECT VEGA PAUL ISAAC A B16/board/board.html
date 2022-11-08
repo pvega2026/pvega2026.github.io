@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+        <title>The Cult of The Keys Official Website</title>
+        <style>
+            body {
+                background-color: rgb(255, 241, 223);
+                margin: 0px;
+            }
+            p {
+                font-family: 'Lato', sans-serif;
+                font-size: 125%;
+            }
+            ul {
+                font-family: 'Lato', sans-serif;
+                font-size: 125%;
+            }
+            ul li ul li{
+                font-family: 'Lato', sans-serif;
+                font-size: 75%;
+            }
+            h1 {
+                font-family: 'Rubik', sans-serif;
+            }
+            .topnav {
+                background-color: #333;
+                font-family: 'Lato', sans-serif;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                transition: all 0.25s ease;
+            }
+            .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+            .topnav a.active {
+                background-color: rgb(75, 74, 75);
+                color: white;
+            }
+            #logo {
+                width: 15%;
+                height: 15%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                opacity: 100%;
+                transition: all 0.1s linear;
+            }
+            #logo:hover {
+                opacity: 75%;
+            }
+            #banner {
+                width: 100%;
+                height: 300px;
+                position: relative;
+                display: flex;
+                overflow: hidden;
+                text-align: center;
+                background-color: rgb(75, 74, 75);
+                justify-content: center;
+                align-items: center;
+            }   
+            #banner_img {
+                width: 200%;
+                opacity: 25%;
+            }
+           #banner_text {
+                font-size: 50px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: 'Rubik', sans-serif;
+           }
+            .paragraph {
+                margin: auto;
+                width: 65%;
+            }
+            #pageBottom {
+                background-color: rgb(53, 53, 53);
+                height: 200px;
+                color: white;
+                display:flex;
+				align-items: center;
+                font-size: 75%;
+            }
+            #pageBottom p {
+                margin-left: 20%;
+                margin-right: 20%;
+                text-align: center;
+            }
+            #cheatSheet{
+                width:100%;
+            }
+            .indent {
+                text-indent: 5%;
+            }
+            ul li img {
+                width:100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            a {
+                text-decoration: none;
+                color:black;
+                transition: all 0.1s ease;
+            }
+            a:hover {
+                color:rgb(0, 225, 255);
+            }
+        </style>
+    </head>
+    <body>
+        <a href="../index.html"><img src="../logo.png" id="logo"></a><br>
+        <div class="topnav">
+            <a href="../index.html">Home</a>
+            <a href="../keycaps/keycaps.html">Keycaps</a>
+            <a href="../switches/switches.html">Switches</a>
+            <a class="active" href="../board/board.html">Board</a>
+            <a href="../about me/about me.html">About Me</a>
+        </div>
+        <div id="banner">
+            <img src="../board.webp" id="banner_img">
+            <div id="banner_text">BOARD</div>
+        </div>
+        <div class="paragraph">
+			<p>So, you want to choose the board that's right for you? Well, here are some of the things you're gonna want to keep in mind whether or not you build your own mechanical keyboard.</p>
+            <div>
+                <h1>TABLE OF CONTENTS</h1>
+                <ul>
+                    <li><a href="#KS">Keyboard Size</a>
+                        <ul>
+                            <li><a href="#100">100%</a></li>
+                            <li><a href="#96">96%</a></li>
+                            <li><a href="#80">80%</a></li>
+                            <li><a href="#75">75%</a></li>
+                            <li><a href="#65">65%</a></li>
+                            <li><a href="#60">60%</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#MS">Mounting Styles</a></li>
+                    <li><a href="#C">Cases</a></li>
+                    <li><a href="#WW">Wireless/Wired</a>
+                        <ul>
+                            <li><a href="#WL">Wireless</a></li>
+                            <li><a href="#W">Wired</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#PCB">PCB</a>
+                        <ul>
+                            <li><a href="#S">Soulder</a></li>
+                            <li><a href="#HS">Hot-swap</a></li>
+                        </ul></li>
+                </ul>
+            </div>
+            <h1 id="KS">KEYBOARD SIZE</h1>
+            <p>How big do you want your keyboard to be? There are seven different sizes of keyboard that you can purchase: 100%, 96%, 80%, 75%, 65%, and 60%</p>
+            <p>Let's break down what each of them are.</p>
+            <p>
+                <ul>
+                    <li id="100"><b>100%</b><br>
+                        <img src="100_.webp"> 
+                        <div class="indent"> 100% keyboards, also known as full sized keyboards, are the most common and well known size of keyboard. With a numeric keypad, arrow keys, the main key area, as well as the Function area, this keyboard is divided into four parts. The advantage of a full sized keyboard is that it meet a wide variety of office needs. Especially with the number pad, data entry and calculations are made easier and faster. A disadvantage of a full sized keyboard is that it takes up more space and is not very mobile.
+                        </div>
+                    </li><br>
+                    <li id="96"><b>96%</b><br>
+                        <img src="96_.webp"> 
+                        <div class="indent"> The 96% size keyboard is mainly based on the full size keyboard, where the rarely used keys were reduced and all the keys were combined together. It still meets a variety of office needs, but comes in a more compact design overall.
+                        </div>
+                    </li><br>
+                    <li id="80"><b>80%</b><br>
+                        <img src="80_.webp"> 
+                        <div class="indent"> The 80% layout of the keyboard is also called the Tenkeyless (TKL) keyboard because the numeric keypad was removed. This layout condenses the numeric keypad area that most people don't use to significantly reduce the keyboard size. This layout is very popular with gamers because of its compact yet versatile nature.
+                        </div>
+                    </li><br>
+                    <li id="75"><b>75%</b><br>
+                        <img src="75_.webp"> 
+                        <div class="indent"> You may be familiar with the 75% keyboard because most laptops come with a 75% keyboard. The 84 keys layout streamlined the function keys, but kept the commonly used directional keys and function keys. However, the 75% layout reduces the keyboard size even more to increase portability. For those who mainly use laptops, the 75% keyboard is what you're most accustomed to.
+                        </div>
+                    </li><br>
+                    <li id="65"><b>65%</b><br>
+                        <img src="65_.webp"> 
+                        <div class="indent"> The 65 keys layout further condense the keys to create a smaller keyboard. It removed the function function keys and numeric keypad and replaced those functionalities triggers through combinations of other keys. Only the most frequently used function keys and directional arrow keys were retained. This more compact keyboard frees up more desk space and lets you focus on typing more.
+                        </div>
+                    </li><br>
+                    <li id="60"><b>60%</b><br>
+                        <img src="60_.webp"> 
+                        <div class="indent"> The 60% Size keyboard, even more compact. Only keeping the number bar and alphabetical keys, the 60% size prioritizes the typing experience by removing more underused keys. But you can also use function keys or arrow keys through combinition keys. It is perfect for people who need to streamline their space and need to type for long periods of time and for people who are always on the go and need a compact keyboard.
+                        </div>
+                    </li><br>
+                </ul>
+            </p>
+            <p>Note: There are also different layouts of keyboard but unless you live in Europe or Japan, they're all the same layout.</p>
+            <h1 id="MS">MOUNTING STYLES</h1>
+            <p>Keyboard cases come in a variety of mounting styles. They each have their pros and cons. Refer to this "cheat sheet" by Thomas Baart on the different mounting styles that all keyboards use and their pros and cons:</p>
+            <img src="cheatSheet.png" id="cheatSheet">
+            <h1 id="C">CASES</h1>
+            <p class="indent">The cases of the keyboard can be made from different types of materials, such as aluminum and plastic. In addition, case materials sometimes go through different production processes, which affects its final quality, typing feel, and price tags. Generally, however, metal keyboard cases tend to be more durable and stable, while plastic-made cases are lighter and more cost-effective. Looking around, you will also probably see more plastic cases than metal ones because they are usually more expensive. Sometimes, you will also see special cases made of other materials. For example, some people make wood cases for their keyboards and others may choose to make their case out of acrylic. There is no best material for cases as they are entirely preference</p>
+            <p class="indent">Also, if you are intending to build your own keyboard and you are choosing a case, you must also keep in mind the size and layout of the PCB you chose (We will go into further detail on PCBs later on this page)</p>
+            <h1 id="WW">WIRELESS/WIRED</h1>
+            <p>
+                <ul>
+                    <li id="WL"><b>Wireless:</b> A wireless keyboard can either connect through Bluetooth or with a specific wireless adapter (such as a 2.4 GHz adapter) included with the board. So users have no worries about wires and spend less effort to set up on the desk. However, full-metal body keyboards hardly enable wireless function because metal usually blocks wireless signals. So comparatively, all-metal keyboards with wireless viability have an unstable connection.</li>
+                    <br>
+                    <li id="W"><b>Wired:</b> Wired keyboards are directly connected to the PC through a cable, which provides stable typing performance without signal interference or noticeable latency. Therefore, it is a common feature for lots of custom keyboards that creates an optimal gaming experience for competitive gamers.</li>
+                </ul>
+            </p>
+            <h1 id="PCB">PCB</h1>
+            <p>As we mentioned before, PCBs come in different sizes and depending on what size keyboard you want, you may need to look for different PCBs and in some special cases even purchase a custom made one from a specialist. Generally, there are two kinds of PCBs that you can purchase for every size of keyboard: Solder and Hot-swap</p>
+            <p>
+                <ul>
+                    <li id="S"><b>Soulder:</b> Soulder PCBs are PCBs that require the keyboard switches to be souldered on. This means the switches can't be pulled out by hand and if you want to change the switches on keyboards with these kinds of PCBs you're going to need a soldering iron and to be careful not to break either the switch or the PCB. Pre-built, or already built, keyboards that you can purchase tend to come with this kind of PCB installed on them.</li>
+                    <br>
+                    <li id="HS"><b>Hot-swap:</b> This PCB has pre-installed the hot-swappable sockets that allow the switches to be slotted into them. You can just quickly swap the switches easily without any soldering training. Most if not all barebones, or keyboards without switches, tend to come with these kinds of PCBs because they allow for the quick and convinient changing of switches.</li>
+                </ul>
+            </p>
+        </div>
+        <br>
+        <div id="pageBottom"><p>The Cult of The Keys website is made for keyboard enthusiasts everywhere. It's goal is to have an easy source of information for people interested in mechanical keyboards to find what they need to know. <br><br> Image/s on this page taken from: https://www.lazada.com.ph/products/glorious-gmmk-pro-i1997803122.html, https://www.keychron.com/blogs/news/keyboard-size-layout-buying-guide, and https://thomasbaart.nl/2019/04/07/cheat-sheet-custom-keyboard-mounting-styles/. Information came from: https://www.keychron.com/blogs/news/keyboard-size-layout-buying-guide and https://www.keychron.com/blogs/news/how-to-choose-a-custom-mechanical-keyboard</p></div>
+    </body>
+</html>

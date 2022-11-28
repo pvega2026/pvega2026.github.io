@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        <title>Buwan Cafe Homepage</title>
+        <style>
+            header {
+                text-align: center;
+                font-size: xx-large;
+            }
+            body {
+                font-family: 'Merriweather', serif;
+                color: white;
+                background-color: black;
+                margin: 0px;
+            }
+            body #logo {
+                text-decoration: none;
+                color: white;
+                opacity: 100%;
+                transition: all 0.25s ease;
+            }
+            body #logo:hover {
+                opacity: 50%;
+            }
+            header {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            header img {
+                position: relative;
+                opacity: 25%;
+            }
+            header h1{
+                position:absolute;
+            }
+            footer {
+                font-size: small;
+                background-color: rgb(48, 48, 48);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                height: 200px;
+                padding-left: 15%;
+                padding-right: 15%;
+            }
+            hr {
+                margin-left: 5%;
+                margin-right: 5%;
+            }
+            #menuMain {
+                display: flex;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-bottom: 5%;
+                justify-content: center;
+                align-items: center;
+            }
+            #menuMain section, #menuMain aside, .menuItem {
+                width: 50%;
+            }
+            th {
+                font-size: larger;
+            }
+            td:not(.menuItem) {
+                text-align: center;
+                width: 10%;
+            }
+            h2 {
+                font-size: xx-large;
+                margin-bottom: 0%;
+            }
+            aside .menuItem {
+                width: 100%;
+            }
+            .menuItem section {
+                width: 100%;
+            }
+            i {
+                font-size: 75%;
+                margin-left:5%;
+            }
+        </style>
+    </head>
+    <body>
+        <a id="logo" href="index.html"><header>
+            <img src="logo.png" alt="logo.png">
+            <h1>Buwan Cafe</h1>
+        </header></a>
+        <hr>
+        <div id="menuMain">
+            <section>
+                <h2>Coffee</h2>
+                <table>
+                    <tr>
+                        <th class="menuItem"></th>
+                        <th>Small</th>
+                        <th>Regular</th>
+                        <th>Large</th>
+                    </tr>
+                    <tr>
+                        <td class="menuItem"> Brewed Coffee *BEST SELLER*<br><i>It's definitely coffee</i></td>
+                        <td>95</td>
+                        <td>110</td>
+                        <td>125</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Americano<br><i>USA! USA! USA!</i></td>
+                        <td>110</td>
+                        <td>120</td>
+                        <td>130</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Cappuccino<br><i>oui oui Baguette (wait is that the right coutry?)</i></td>
+                        <td>120</td>
+                        <td>130</td>
+                        <td>140</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Cafe Latte<br><i>Ok, im gonna level with you idk what the difference between this...</i></td>
+                        <td>120</td>
+                        <td>130</td>
+                        <td>140</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Cafe Mocha<br><i>and this is</i></td>
+                        <td>135</td>
+                        <td>145</td>
+                        <td>155</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Flat White<br><i>That, is quite the milk ratio</i></td>
+                        <td>130</td>
+                        <td>140</td>
+                        <td>150</td>
+                    </tr>
+                </table>
+                
+                <h2>Fruit Tea</h2>
+                <table>
+                    <tr>
+                        <th class="menuItem"></th>
+                        <th>Small</th>
+                        <th>Regular</th>
+                        <th>Large</th>
+                    </tr>
+                    <tr>
+                        <td class="menuItem"> Blueberry Fruit Tea<br><i>Blue? more like...uh...please give me money</i></td>
+                        <td>80</td>
+                        <td>90</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Strawberry Fruit Tea<br><i>A personal favourite of ours</i></td>
+                        <td>80</td>
+                        <td>90</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Passion Fruit Tea<br><i>Idk, color's kinda neat</i></td>
+                        <td>80</td>
+                        <td>90</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Peach Fruit Tea<br><i>Made with peaches, not much to say here</i></td>
+                        <td>80</td>
+                        <td>90</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Signature Fruit Tea<br><i>Its actually a mystery what this is (even our employees don't know)</i></td>
+                        <td>90</td>
+                        <td>100</td>
+                        <td>110</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Wintermelon Fruit Tea<br><i>Ok listen, does anyone really know what a wintermelon is?</i></td>
+                        <td>90</td>
+                        <td>100</td>
+                        <td>110</td>
+                    </tr>
+                </table>
+            </section>
+            <aside>
+                <h2>Snacks</h2>
+                <table>
+                    <tr>
+                        <td class="menuItem">Fries<br><i>A classic, can't be beat</i></td>
+                        <td>85</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Nachos (Cheese)<br><i>Get the one with beef (not because i want more money but because it's better)</i></td>
+                        <td>95</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Nachos (Beef)<br><i>*1 hour later* ok nvm get either one this one's only alright</i></td>
+                        <td>105</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Mojos<br><i>(<s>Stolen</s> Borrowed From Shakey's)</i></td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Twister Fries<br><i>I was wrong, fries can apparently be beat</i></td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Quesadilla (Cheese)<br><i>Solid choice, can't go wrong</i></td>
+                        <td>105</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Quesadilla (Beef)<br><i>It's...a lot, that's all I'll say</i></td>
+                        <td>115</td>
+                    </tr>
+                </table>
+
+                <h2>Pastas & Pizzas</h2>
+                <table>
+                    <tr>
+                        <td class="menuItem">Carbonara<br><i>Lots of cream just for you</i></td>
+                        <td>105</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Bolognese<br><i>Only good the first few times, every other time gets old</i></td>
+                        <td>105</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Chicken Pesto<br><i>You know, pesto has traditionally been made with crushed nuts, so as a person with a peanut allergy, everytime i eat pesto has been a gamble</i></td>
+                        <td>105</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Pepperoni Pizza<br><i>Classic, will actually never be beat</i></td>
+                        <td>115</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">4-cheese Pizza<br><i>To provide variety to the pizza party</i></td>
+                        <td>115</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Meat-Lover's Pizza<br><i>eyo?</i></td>
+                        <td>115</td>
+                    </tr>
+                    <tr>
+                        <td class="menuItem">Hawaiian Pizza<br><i>Pineapple on pizza? your days are numbered...</i></td>
+                        <td>115</td>
+                    </tr>
+                </table>
+            </aside>
+        </div>
+        <footer>Buwan Cafe is a figment of my imagination. All copywritable content was stolen (i mean borrowed) for educational purposes and any attempt at a lawsuit will result in a countersuit because it's funny (and also i like money).</footer>
+    </body>
+</html> 

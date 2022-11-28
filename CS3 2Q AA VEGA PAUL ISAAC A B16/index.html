@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        <title>Buwan Cafe Homepage</title>
+        <style>
+            header {
+                text-align: center;
+                font-size: xx-large;
+            }
+            body {
+                font-family: 'Merriweather', serif;
+                color: white;
+                background-color: black;
+                margin: 0px;
+            }
+            body #logo {
+                text-decoration: none;
+                color: white;
+                opacity: 100%;
+                transition: all 0.25s ease;
+            }
+            body #logo:hover {
+                opacity: 50%;
+            }
+            header {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            header img {
+                position: relative;
+                opacity: 25%;
+            }
+            header h1{
+                position:absolute;
+            }
+            #welcome {
+                margin-left: 0%;
+                margin-right: 0%;
+                display: flex;
+                justify-content: center;
+            }
+            #second_thing {
+                margin-left: 0%;
+                margin-right: 0%;
+                display: flex;
+                justify-content: center;
+            }
+            #bgVideo1 {
+                margin: 0%;
+                width: 100%;
+                overflow: hidden;
+                display: block;
+                position: relative;
+                opacity: 40%;
+                height: 500px;
+            }
+            #bgVideo2 {
+                margin: 0%;
+                width: 100%;
+                overflow: hidden;
+                display: block;
+                position: relative;
+                opacity: 40%;
+                height: 500px;
+            }
+            #fadeGradient {
+                position: absolute;
+                width: 100%;
+                height: 200px;
+                background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(0, 0, 0, 1));
+            }
+            section h3 {
+                margin-top: 5%;
+                position: absolute;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 250%;
+            }
+            #fadeGradient div {
+                display: flex;
+                justify-content: center;
+                margin-left: 25%;
+                margin-right: 25%;
+                margin-top: 10%;
+            }
+            #fadeGradient div img{
+                width: 40%;
+                height: 40%;
+            }
+            #fadeGradient div article a {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                height: 20%;
+                justify-content: center;
+                align-items: center;
+                border-radius: 7.5% / 33%;
+                background-color: aliceblue;
+                transition: all 0.5s ease;
+                text-decoration: none;
+                color: black;
+            }
+            #fadeGradient div article a:hover {
+                font-size: 150%;
+                width: 75%;
+                height: 26%;
+            }
+            #second_thing_content {
+                position: absolute;
+                width: 100%;
+                height: 200px;
+            }
+            #second_thing_content div {
+                display: flex;
+                justify-content: center;
+                margin-left: 25%;
+                margin-right: 25%;
+                margin-top: 5%;
+            }
+            #second_thing_content div img{
+                width: 45%;
+                height: 45%;
+            }
+            #second_thing_content div article a {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                height: 20%;
+                justify-content: center;
+                align-items: center;
+                color: black;
+                border-radius: 7.5% / 33%;
+                background-color: aliceblue;
+                font-size: 75%;
+                transition: all 0.5s ease;
+                text-decoration: none;
+            }
+            #second_thing_content div article a:hover {
+                font-size: 100%;
+                width: 75%;
+                height: 26%;
+            }
+            footer {
+                font-size: small;
+                background-color: rgb(48, 48, 48);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                height: 200px;
+                padding-left: 15%;
+                padding-right: 15%;
+            }
+        </style>
+    </head>
+    <body>
+        <a id="logo" href="index.html"><header>
+            <img src="logo.png" alt="logo.png">
+            <h1>Buwan Cafe</h1>
+        </header></a>
+        <section id="welcome">
+            <h2 id="bgVideo1">
+                <video width="1920" height="1080" autoplay loop muted>
+                    <source src="https://drive.google.com/uc?export=download&id=1gQYFbeo1V1r1Ak6ASZhgt3UBXl8n3-bf" type="video/mp4">
+                    Your browser does not support the video element. Kindly update
+                    it to the latest version. 
+                </video>
+            </h2>
+            <div id="fadeGradient">
+                <div>
+                    <article>
+                        <h2>Escape the stresses of life with our best selling coffee</h2>
+                        <a href="menu.html">See Menu</a>
+                    </article>
+                    <img src="coffee.png" alt="coffee.png">
+                </div>
+            </div>
+            <h3>Welcome to the Buwan Cafe Homepage!</h3>
+        </section>
+        <div id="second_thing">
+            <div id="bgVideo2">
+                <video width="1920" height="1080" autoplay loop muted>
+                    <source src="https://drive.google.com/uc?export=download&id=1nKMINFL6ngoXMqvfsahMhGEXuvEmkMnJ" type="video/mp4">
+                    Your browser does not support the video element. Kindly update
+                    it to the latest version. 
+                </video>
+            </div>
+            <div id="second_thing_content">
+                <div>
+                    <img src="pin.png" alt="pin.png">
+                    <article>
+                        <h2>Wanna learn more about us and see where you can visit us?</h2>
+                        <a href="aboutUs.html">See About Us and Locations</a>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <footer>Buwan Cafe is a figment of my imagination. All copywritable content was stolen (i mean borrowed) for educational purposes and any attempt at a lawsuit will result in a countersuit because it's funny (and also i like money).</footer>
+    </body>
+</html> 

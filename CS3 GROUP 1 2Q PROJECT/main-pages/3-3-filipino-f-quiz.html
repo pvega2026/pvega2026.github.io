@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+          font-weight: 300;
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+        }
+        .active {
+          font-weight: bold ;
+        }
+        .navbar-brand {
+          font-weight: 600;
+          font-size: 2.5vh;
+        }
+        #pageHeader {
+          max-width: 85%;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          margin-left: auto;
+          margin-right: auto;
+          color: white;
+          text-shadow: 0 0 10px #000000, 0 0 1px #ffffff;;
+        }
+        #bodyContent {
+          max-width: 85%;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          margin-left: auto;
+          margin-right: auto;
+          background-color: aliceblue;
+          border-radius: 1vh;
+          padding: 1.5rem;
+        }
+        footer {
+          font-size: 1.75vh;
+          margin-top: auto;
+          background-color: darkgrey;
+          padding: 6vh;
+        }
+        a {
+          opacity: 100%;
+          transition: opacity 0.1s linear;
+        }
+        a:hover {
+          opacity: 50%;
+        }
+        body {
+          background-image: url(https://cdn.discordapp.com/attachments/724629528693178368/1063288824567975946/IMG_3560.jpg);
+          background-repeat: no-repeat;
+          object-fit: cover;
+          background-size: cover;
+          background-position: center;
+        }
+        .card {
+          height: 100%;
+        }
+        .card img {
+          height: 15vh;
+          object-fit: cover;
+        }
+
+        #rowTwo{
+          background-color: rgb(238, 238, 238);
+        }
+        #rowTwo:hover{
+          background-color: rgb(219, 219, 219);
+        }
+        footer {
+          font-size: 1.75vh;
+          margin-top: auto;
+          background-color: darkgrey;
+          padding: 6vh;
+        }
+
+        .quiz{
+          margin-top: 5%;
+          margin-bottom: 5%;
+        }
+        button{
+          display:flex;
+          text-align:center;
+          border-radius:10px;
+          background-color: rgb(225, 233, 240);
+          border-color: white; 
+        }
+        #container{
+          text-align: center;
+          margin:auto;
+        }
+
+        .fa {
+          width: 50px;
+          padding: 10px;
+          font-size: 30px;
+          text-align: center;
+          text-decoration: none;
+          border-radius: 100%;
+          margin-top: 1vh;
+          margin-bottom: 1vh;
+          transition: all 0.1s linear;
+        }
+        .fa:hover {
+          opacity: 0.7;
+          color: grey;
+        }
+        .fa-twitter {
+          background: #000000;
+          color: white;
+        }
+        .fa-facebook {
+          background: #000000;
+          color: white;
+        }
+        .nav-link{
+          padding:0;
+        }
+        .nav .nav-link{
+          padding:1vh;
+        }
+        #khubLogo {
+          height: 2.5rem;
+        }
+        .navbar-color {
+          background-color: rgba(0, 0, 0, 0.473);
+        }
+        .nodeco {
+          text-decoration: none;
+        }
+        .accordion-button {
+          background-color: aliceblue;
+          font-size: 20px;
+        }
+    </style>
+    <title>Course: Filipino > Pormatibong Pagtataya 1</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-color">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="1-home.html"><img src="khubLogoTest.png" alt="..." id="khubLogo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav nav">
+              <li>
+                <a class="nav-link text-light" href="1-home.html">Home</a>
+              </li>
+              <li>
+                <a class="nav-link text-light" href="1-dashboard.html">Dashboard</a>
+              </li>
+              <li>
+                <a class="nav-link text-light" href="1-author.html">Authors</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <header class="h1 container" id="pageHeader">Filipino > Pormatibong Pagtataya 1</header>
+        <div class="container text-bg-light" id="bodyContent">
+          <header class="h3">Formative Assessment 1</header>
+            <div>
+              <div>
+                <hr>
+                <p>Opened: January 16, 2023</p>
+                <p>Closed: January 16, 2023</p>
+                <hr>
+              </div>
+              <h4>General Instructions</h4>
+              <ul>
+                <li>Coverage: Week 1 LGs</li>
+              </ul>
+              <hr>
+            </div>
+            <div class="quiz">
+              <p>Attempts allowed: 1</p>
+              <p>Time limit: 15 mins</p>
+            </div>
+            <div>
+              <h4>Summary of Previous Attempts</h4>
+              <br>
+              <table class="container-fluid">
+                <tr>
+                  <th>State</th>
+                  <th style="text-align: center;">Grade / 5</th>
+                  <th style="text-align: center;">Review</th>
+                </tr>
+                <tr id="rowTwo">
+                  <td>Finished</td>
+                  <td style="text-align: center;">5</td>
+                  <td style="text-align: center;"><a href="4-filipino-a-quiz.html">Review</a></td>
+                </tr>
+              </table>
+            </div>
+            <div class="quiz">
+              <h3 style="text-align: center;">Your final grade for this quiz is 5/5.</h3>
+            </div>
+            <div>
+              <p>No more attempts are allowed.</p>
+              <br>
+              <div>
+                <br>
+                <a id="container" href="2-filipino-course.html" style="color: black;"> ← Back to the course</a>
+            </div>
+              <br>
+              <br>
+            </div>
+          </div>
+        </div>
+
+    <footer class="bg-dark text-center text-white">
+        <div class="container-fluid p-4">
+          <div class="text-center">
+              <h4>More of PSHS CLC</h4>
+          </div>
+          <div>
+            <a href="https://twitter.com/balingkalat2026" class="fa fa-twitter"></a>
+            <a href="https://web.facebook.com/pshsclc" class="fa fa-facebook"></a>
+          </div>
+        </div>
+        <div class="text-center p-3">
+          &copy; 2023 Copyright: CS3 Q2 Group 1 (GOATED)
+        </div>
+      </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,217 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    background-color: rgb(58, 58, 58);
+    font-family: 'CustomFont';
+}
+#mainBody {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    position: absolute;
+}
+#card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height: 540px;
+}
+.boton {
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    padding: 0%;
+    margin: 62px;
+}
+.row2 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.tinkaton {
+    background-image: url(3.png);
+    background-size: cover;
+    background-position: center;
+}
+.corviknight {
+    background-image: url(2.png);
+    background-size: cover;
+    background-position: center;
+}
+#screenDark{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    z-index: 3;
+    opacity: 40%;
+    position: absolute;
+}
+#rulesAlert{
+    display:flex;
+    flex-direction: row;
+}
+.xbox360 {
+    width: 50px;
+    height: 50px;
+}
+.bgImage {
+    width: 100vw;
+    height: 100vh;
+    opacity: 40%;
+    position: absolute;
+    background-image: url('4.webp');
+    background-size: cover;
+    z-index: -2;
+}
+#cpuWinAlert {
+    flex-direction: column;
+    display: none;
+}
+#playerWinAlert {
+    flex-direction: column;
+    display: none;
+}
+.alert {
+    width: 50vw;
+    height: 50vh;
+    background-color:rgb(255, 255, 255);
+    z-index: 4;
+    position: absolute;
+    margin-top: 25vh;
+    padding: 1%;
+    justify-content: space-between;
+    border: 5px solid rgb(0, 0, 0);
+}
+@font-face {
+    font-family: "CustomFont";
+    src: url("PKMN\ RBYGSC.ttf");
+}
+.backToMenu {
+    z-index: 2;
+    margin-top: 25px;
+}
+.thingButtons {
+    display: flex;
+    justify-content:space-evenly;
+}
+.topContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+.btn:not(.boton) {
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(0, 0, 0);
+    color: black;
+}
+.btn:hover:not(.boton) {
+    background-color: rgb(104, 104, 104);
+}
+#rulesAlert img {
+    height: 100%;
+    width: 100%;
+}
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p {
+    text-align: center;
+}
+#buttonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+    width: auto;
+    align-items: center;
+}
+#mainPage {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    color: white;
+}
+#mainPage .btn {
+    width: 100%;
+    color: black;
+}
+#startButton{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+#titleText {
+    color: white;
+    font-size: 10vh;
+    margin-bottom: 1.5rem;
+}
+#aboutUs img {
+    height: 25vh;
+    width: auto;
+}
+#aboutUs {
+    display: flex;
+    width: 75vw;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 1.5rem;
+}
+.devPageTitle {
+    color: white;
+    margin-top: 1.5rem;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 17.5vw;
+    text-align: center;
+}
+#sources {
+    color:white;
+    margin-top: 1.5rem;
+}
+.source {
+    margin-top: 0.5rem;
+}
+#titleText {
+    text-align: center;
+    font-weight: bold;
+}
+#titleSub {
+    margin-bottom: 3.5rem;
+}
+#cheatPage .card {
+    width: 50vw;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+#cheatPage{
+    background-color: black;
+}
+#cheatPage .bgImage{
+    opacity: 100%;
+}
+.bgImageGradient {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), black);
+    position:absolute;
+    z-index: -1;
+}
+#cheatPage .backToMenu{
+    margin-bottom: 1.5rem;
+}
